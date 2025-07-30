@@ -1,0 +1,50 @@
+name: flutter_verse
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  faker: ^2.1.0
+  http: ^1.1.0
+  rive: ^0.13.20
+  youtube_player_flutter: ^9.1.1
+  provider: ^6.1.5
+  shared_preferences: ^2.5.3
+  socket_io_client: ^3.1.2
+  intl: ^0.20.2
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^4.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon2.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/marvel_heroes/
+    - assets/images/animals/
+    - assets/images/safe_area/
+    - assets/images/profile_pic/
+    - assets/images/background_image/
+
+  fonts:
+    - family: Orbitron
+      fonts:
+        - asset: assets/fonts/Orbitron/Orbitron-VariableFont_wght.ttf
